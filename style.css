@@ -1,0 +1,39 @@
+/* Style the body background color and text color */
+body {
+    background-color: #f0f8ff; /* A light, airy color */
+    color: #333; /* Dark gray text for readability */
+    font-family: Arial, sans-serif; /* A common, clean font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the body take up the full viewport height */
+}
+
+/* Style the main container that holds the content */
+.container {
+    background-color: #ffffff; /* White background for the content box */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    width: 80%;
+    max-width: 500px; /* Limit the container width on large screens */
+}
+
+/* Style the main heading (h1) */
+h1 {
+    color: #005f73; /* A nice shade of blue */
+    text-align: center; /* Center the text */
+}
+
+/* Style paragraphs (p) */
+p {
+    line-height: 1.5; /* Increase line spacing for better readability */
+}
+
+/* Style the unordered list (ul) */
+ul {
+    list-style-type: disc; /* Use standard bullet points */
+    margin-left: 20px;
+}
